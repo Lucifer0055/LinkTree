@@ -1,0 +1,622 @@
+/*loader*/
+
+#un-loader {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    z-index: 9999;
+}
+
+.loader {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    animation: rotate 5s infinite;
+}
+
+.ball {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.uppers {
+    left: 0;
+    top: -22px;
+    background: #2da2ff;
+    animation: upper 1s linear infinite;
+}
+
+@keyframes upper {
+    50% {
+        top: 22px;
+    }
+
+    100% {
+        top: 22px;
+    }
+}
+
+.rights {
+    right: -22px;
+    top: 0;
+    background: #ff337a;
+    animation: right 1s linear infinite;
+}
+
+@keyframes right {
+    50% {
+        right: 22px;
+    }
+
+    100% {
+        right: 22px;
+    }
+}
+
+.lowers {
+    bottom: -22px;
+    left: 0;
+    background: #ffff00;
+    animation: lower 1s linear infinite;
+}
+
+@keyframes lower {
+    50% {
+        bottom: 22px;
+    }
+
+    100% {
+        bottom: 22px;
+    }
+}
+
+.lefts {
+    left: -22px;
+    top: 0;
+    background: #00ff00;
+    animation: left 1s linear infinite;
+}
+
+@keyframes left {
+    50% {
+        left: 22px;
+    }
+
+    100% {
+        left: 22px;
+    }
+}
+
+@media(max-width:990px){
+    #un-loader {
+        align-items: center;
+    }
+
+}
+
+@media(max-width:790px) {
+    #un-loader {
+        align-items: center;
+    }
+
+}
+
+
+/*nav bar brand*/
+.nav-b{
+    font-size: 35px;
+   
+}
+
+.colap-b{
+    font-size:19px;
+}
+
+/*data*/
+#data{
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    padding: 7.6% 6% 8% 6% ;
+    
+}
+
+
+
+.cc{
+    background-color: #fcfcfc;
+    box-shadow: 15px 17.5px #0096c7;
+    border-radius: 2em;
+    padding: 3% 10% 5% 7%;
+}
+.img{
+    position: relative;
+    
+}
+
+.img1{
+    width:22rem;
+    height:29rem;
+    border-radius:2rem;
+    margin-left:4rem ; 
+}
+.d-h5{
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222;
+}
+.d-h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #222;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+}
+.d-h4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222;
+   
+}
+.in{
+    margin-top:3em;
+}
+/*Media Query*/
+
+@media (max-width:1242px){
+    .img1{
+        width: 18rem;
+        height:28rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .in{
+        margin-top:1.9em;
+    }
+    .img1{
+        margin-right:1.5rem ;
+    }
+    .cc{
+        padding: 3% 2.6% 3% 5%;
+    }
+}
+@media (max-width:1015px) {
+    #data {
+            text-align: center;
+        }
+        .img1 {
+            
+            width: 15rem;
+            height: 22rem;
+            position: relative;
+            left:0.2rem;
+    
+        }
+        .cc{
+            padding: 3% 2% 3% 5%;
+        }
+        .in{
+            margin-top:1.5em;
+        }
+}
+@media (max-width:410px) {
+    #data {
+            text-align: center;
+        }
+        .img1 {
+            
+            width: 10rem;
+            height: 18rem;
+            position: relative;
+            left:0.2rem;
+    
+        }
+        .cc{
+            padding: 1.5% 3% 1.5% 3%;
+        }
+        .in{
+            margin-top:1.25em;
+        }
+}
+
+
+
+/*link*/
+
+#links{
+    padding: 5% 4%;
+    text-align: center;
+    background-image: #e9ecef;
+}
+.l-h1{
+    text-align: center;
+    font-family: 'mukta', sans-serif;
+    font-size: 3.2em;
+    color: #023e8a;
+    padding-bottom: 3rem;
+}
+
+.icon-media {
+    margin-top: 10px;
+    margin: 0 15px;
+    
+
+}
+
+/*instagram*/
+
+.l-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: rgba(200, 12, 224, 0.829);
+    background-color: #fff;
+    border-color: rgba(200, 12, 224, 0.829);
+}
+
+.l-ico:hover {
+    
+    background: rgba(200, 12, 224, 0.829);
+    color: #FFF;
+}
+/*linked i #0A66C2*/
+
+
+.lin-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: #0A66C2;
+    background-color: #fff;
+    border-color: #0A66C2;
+}
+
+.lin-ico:hover {
+  
+    background: #0A66C2;
+    color: #FFF;
+}
+/*behance*/
+
+.be-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: #053eff;
+    background-color: #fff;
+    border-color: #053eff;
+}
+
+.be-ico:hover {
+    
+    background: #053eff;
+    color: #FFF;
+}
+/*dribble*/
+
+
+.dr-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: #ea4c89;
+    background-color: #fff;
+    border-color: #ea4c89;
+}
+
+.dr-ico:hover {
+    
+    background: #ea4c89;
+    color: #FFF;
+}
+/*github */
+
+
+.git-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color:#343a40;
+    background-color: #fff;
+    border-color:#343a40;;
+}
+
+.git-ico:hover {
+    
+    background:#171515;
+    color: #fff;
+}
+/*twitter #1DA1F2*/
+.l-icons {
+    margin-top: 20px;
+    justify-content:center ;
+    
+    display: flex;
+    
+
+}
+
+.twit-ico {
+    text-align: center;
+
+    line-height:78px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 12px;
+    font-size: 2.5rem;
+   border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: #1d4e89;
+    background-color: #fff;
+    border-color:#1d4e89;
+}
+
+.twit-ico:hover {
+    
+    background:#1DA1F2;
+    color: #FFF;
+    border-color:#1DA1F2;;
+}
+
+
+
+
+/*footer*/
+
+.f-3{
+    font-size: 1.7rem;
+    margin-right: 5px;
+    line-height: 5px;
+}
+.foot-p{
+    margin-left: 5px;
+line-height: 20px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#footer{
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    padding-top:5% ;
+}
+.f-h2{
+    color:#FFF;
+    line-height: 40px;
+    margin-left:1.2rem;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 30px;
+    font-weight: 60px;
+}        
+.f-img{
+    width: 40px;
+    height: 40px;
+}
+.logo-h2{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #111;
+    
+}
+
+footer .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .content p,
+a {
+    color: #fff;
+}
+
+footer .content .box {
+    width: 33%;
+    transition: all 0.4s ease;
+}
+
+footer .content .topic {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+
+}
+
+footer .content p {
+    text-align: justify;
+}
+
+footer .content .lower .topic {
+    margin: 24px 0 5px 0;
+}
+
+footer .content .lower i {
+    padding-right: 16px;
+}
+
+footer .content .middle {
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+footer .content .middle a {
+    line-height: 32px;
+}
+
+
+footer .content .right input[type="text"] {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+    margin-bottom: 6px;
+}
+
+footer .content .right input[type="email"] {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+}
+
+footer .content .right input[type="submit"] {
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #eb2f06;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #eb2f06;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .right input[type="submit"]:hover {
+    background: none;
+    color: #eb2f06;
+}
+
+footer .content .media-icons-f a {
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+}
+
+.content .media-icons-f a:hover {
+    border-color: #eb2f06;
+}
+
+footer .bottom {
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+}
+
+footer .bottom a {
+    color: #eb2f06;
+}
+
+footer a {
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #eb2f06;
+}
+
+@media (max-width:1100px) {
+    footer .content .middle {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:950px) {
+    footer .content .box {
+        width: 50%;
+    }
+
+    .content .right {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:560px) {
+    footer {
+        position: relative;
+    }
+
+    footer .content .box {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .content .middle {
+        padding-left: 0;
+    }
+}
